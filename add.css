@@ -1,0 +1,99 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('food\ court\ back\ ground.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+   
+    color: #333;
+}
+ h4{
+        background-color: aliceblue;
+    }
+
+
+/* Header */
+header {
+    background: #c8102e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header img {
+    border-radius: 10px;
+}
+p {
+    text-shadow: 2px 2px 5px rgb(244, 239, 239);
+}
+
+/* Navigation Bar */
+nav {
+    background: #fff;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+nav a {
+    text-decoration: none;
+    color: #c8102e;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: black;
+}
+
+/* Menu Section */
+.menu {
+    padding: 20px;
+    text-align: center;
+}
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.menu-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Slideshow */
+.slideshow-container {
+    position: relative;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide {
+    display: none;
+}
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background: #c8102e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
